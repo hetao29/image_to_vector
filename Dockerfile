@@ -38,4 +38,4 @@ HEALTHCHECK --interval=5s --timeout=5s --retries=3 \
     CMD ps aux | grep "python" | grep -v "grep" > /dev/null; if [ 0 != $? ]; then exit 1; fi
 
 EXPOSE 5000
-CMD ["python", "server/image_to_vector.py"]
+CMD ["python", "image_to_vector.py"]
