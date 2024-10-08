@@ -44,7 +44,7 @@
 ```
 ### 安装本系统
 
-可以参考 https://github.com/hetao29/image-to-convert 进行Docker部署安装
+可以参考 docker-compose.yml 进行Docker部署安装
 
 
 ### 启动
