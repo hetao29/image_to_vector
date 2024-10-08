@@ -1,0 +1,9 @@
+towhee==0.6.0
+torch
+torchvision
+opencv-python
+matplotlib
+pillow
+numpy
+gdown
+rembg

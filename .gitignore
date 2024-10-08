@@ -1,0 +1,4 @@
+server/logs/
+server/tmp/
+*.pyc
+*.log
