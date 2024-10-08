@@ -1,0 +1,14 @@
+services:
+  search:
+    image: hetao29/image-to-vector:latest
+    volumes:
+      - data_root:/root
+    ports:
+      - "5000:5000"
+volumes:
+  data_root:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: /root/

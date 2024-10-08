@@ -49,4 +49,4 @@ async def upload_images(imagesModel: UploadImagesModel):
         return {'code': 10100, 'message': str(e)}
 
 if __name__ == '__main__':
-    uvicorn.run(app=app, host='0.0.0.0', port=5002)
+    uvicorn.run(app=app, host='0.0.0.0', port=5000)
