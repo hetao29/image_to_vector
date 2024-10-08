@@ -1,11 +1,10 @@
-## 更新列表
+## 获取图片的向量值，可用于图片相似度搜索
 
-## 获取图片的向量值，用于图片搜索，可以用milvus,mysql,es等数据库单独存储并搜索
+可以用所有的向量数据库单独存储，比如milvus,mysql,elasticsearch等 \
+如果用milvus搭配，可以直接使用这个 https://github.com/hetao29/reverse_image_search
 
-通过 Towhee（resnet50 模型） 获取向量值，实现以图搜图。
+原理：通过 Towhee（resnet50 模型） 获取向量值，实现以图搜图。
 
-
-包含如下接口
 
 ## API接口
 
